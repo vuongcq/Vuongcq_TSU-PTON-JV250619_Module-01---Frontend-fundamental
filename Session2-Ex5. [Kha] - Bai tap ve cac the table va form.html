@@ -4,45 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+table, th, td {
+  padding: 10px;
+  border-collapse: collapse;
+  text-align : center
+}
+#anh1{
+  border-radius: 25px;
+}
+#anh2{
+  border-radius: 25px;
+}
+#anh3{
+  border-radius: 25px;
+}
+h1 {
+  text-indent: 200px;
+}
+
+</style>
+
 </head>
 <body>
     <!-- Bài1: Tạo bảng có chưa thông tin sản phẩm trong cửa hàng của bạn -->
     <H1><em>My Store</em></H1>
-    <table border="1">
+    <table border="1" >
         <tr>
             <th>Item Photo</th>
             <th>Name</th>
             <th>Price</th>
         </tr>
         <tr>
-            <td><img width="60%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQ3H6QOaHS1ALbSuO9biNhlUelBJy8bF2JQ&s" alt="oranges"></td>
+            <td><img id="anh1" width="60%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQ3H6QOaHS1ALbSuO9biNhlUelBJy8bF2JQ&s" alt="oranges"></td>
             <td>Oranges</td>
             <td>$1ea.</td>
         </tr>
         <tr>
-            <td><img src="" alt="bananas"></td>
+            <td><img src="" alt=" "></td>
             <td>Bananas</td>
             <td>$0.75/lb</td>
         </tr>
         <tr>
-            <td><img width="60%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUEXo5N_VMppfAkCk6Mft1bWd4SzuNgpyGzA&s" alt="pomegranates"></td>
+            <td><img id="anh2" border-radius: 10px width="60%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUEXo5N_VMppfAkCk6Mft1bWd4SzuNgpyGzA&s" alt="pomegranates"></td>
             <td>Pomegranates</td>
             <td>3 for $5</td>
         </tr>
         <tr>
-            <td><img src="" alt="gummy-bears"></td>
+            <td><img src="" alt=" "></td>
             <td>Gummy Bears</td>
             <td>$6 per bag</td>
         </tr>
         <tr>
-            <td><img width="60%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT--sdo3-paiH5r-kjw98G7LYCQuQRA9J3Hxw&s" alt="broccoli"></td>
+            <td><img id="anh3" width="60%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT--sdo3-paiH5r-kjw98G7LYCQuQRA9J3Hxw&s" alt="broccoli"></td>
             <td>Broccoli</td>
             <td>$3 a head</td>
         </tr>
     </table>
 
     <!-- bài 2: Tạo form đặt phòng khách sạn: -->
-    <h1>Booking Form</h1>
+    <h2>Booking Form</h2>
     <form action="">
         <label for="name">Name:</label>
         <input id="name" type="text" name="name">
@@ -72,7 +93,7 @@
     </form>
 
     <!-- bài 3: Tạo form mua xe -->
-     <h1>Car Purchase Form</h1>
+     <h2>Car Purchase Form</h2>
      <form action="">
         <label for="">Name:</label>
         <input type="text" name="name">
