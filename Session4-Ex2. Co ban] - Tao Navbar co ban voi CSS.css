@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    padding: 5px;
+}
+div{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(178, 180, 182)
+}
+a{
+    color: blue;
+    margin: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(105, 161, 161);
+}
+a:active{
+    color: chartreuse;
+}
+a:visited{
+    color: brown;
+}
+a:link{
+    color: blue;
+}
