@@ -1,0 +1,23 @@
+label {
+    margin-left: 20px;
+    font-weight: bold;
+}
+input{
+    margin-left: 20px;
+    width: 500px;
+    height: 30px;
+}
+textarea {
+    margin-left: 20px;
+    width: 500px;
+    height: 70px;
+}
+
+button {
+    margin-left: 20px;
+    width: 500px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(23, 169, 10);
+}
