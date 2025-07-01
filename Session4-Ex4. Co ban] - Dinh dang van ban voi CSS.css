@@ -1,0 +1,12 @@
+table{
+    border: 2px solid;
+    padding-left: 10px;
+    width: 39%;
+    line-height: 10px;
+}
+.b{
+    font-weight: bold;
+}
+.blue{
+    color: rgb(11, 11, 190);
+}
