@@ -1,0 +1,22 @@
+
+.anh {
+    position: relative;
+    width: 300px;
+    background-color: white;
+}
+.views {
+    position: absolute;
+    height: 40px;
+    width: 290px;
+    top: 135px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.anh .text h3 {
+    padding: 10px;
+    font-size: 20px;
+    margin: 0;
+
+}
