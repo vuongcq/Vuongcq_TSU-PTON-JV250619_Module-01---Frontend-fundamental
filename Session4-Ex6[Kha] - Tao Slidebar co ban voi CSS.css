@@ -1,0 +1,46 @@
+/* table{
+    padding-left: 30px;
+}
+ul{
+    list-style-type: none;  
+} */
+a{
+    display: block;
+    text-decoration: none;
+}
+/* .trai{
+    
+    padding: 10px;
+    width: 200px;
+    line-height: 40px;
+    height: 300px;
+    background-color: rgb(224, 221, 221);
+    font-size: 23px
+}
+.giua{
+    vertical-align: top;
+    padding: 60px 30px;
+} */
+a:hover{
+    color: white;
+    background-color: green;
+    display: block;
+}
+.inline{
+    display: inline-block;
+}
+cot1{
+    border: 1px solid gray;
+    padding: auto;
+    width: 200px;
+    line-height: 40px;
+    height: 300px;
+    background-color: rgb(224, 221, 221);
+    font-size: 23px
+}
+cot2{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+    margin-left: 20px;
+}
