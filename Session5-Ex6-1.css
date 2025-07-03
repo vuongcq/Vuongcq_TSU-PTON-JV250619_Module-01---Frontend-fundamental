@@ -1,0 +1,82 @@
+img{
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+.text1{
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgb(235, 71, 71);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.text2{
+    position: absolute;
+    text-align: left;
+    top: 280px;
+    left: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.text3{
+    position: absolute;
+    text-align: left;
+    top: 320px;
+    left: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.icon1{
+    position: absolute;
+    border: 1px solid white;
+    text-align: center;
+    top: 68px;
+    left: 299px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 25px;  
+}
+.icon2{
+    position: absolute;
+    border: 1px solid white;
+    text-align: center;
+    top: 140px;
+    left: 300px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;   
+}
+.icon3{
+     position: absolute;
+    border: 1px solid white;
+    text-align: center;
+    top: 198px;
+    left: 300px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px; 
+}
+.duong1{
+     position: absolute;
+    border-left: 1px solid white;
+    top: 122px;
+    left: 315px;
+}
+.duong2{
+     position: absolute;
+    border-left: 1px solid white;
+    top: 180px;
+    left: 315px;
+}
