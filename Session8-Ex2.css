@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.item{
+    width: calc(25% - 10px);
+    background-color: rgb(240,128,128);
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 10px;
+}
+@media screen and (max-width: 1024px) {
+    .container .item{
+        width: calc(50% - 10px)
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container .item{
+        width: calc(100% - 10px);
+    }
+}
