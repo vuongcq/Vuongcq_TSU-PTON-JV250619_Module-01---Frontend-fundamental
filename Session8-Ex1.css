@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    color: black;
+    background-color: rgb(173,216,230);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.k{
+    border: 1px solid rgb(214, 213, 213);
+    width: 50%;
+    height: 50px;
+    padding-top: 15px;
+}
+.k3{
+    border: 1px solid rgb(214, 213, 213);
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .container .k{
+        width: 100%;
+    }
+}
