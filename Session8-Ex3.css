@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.content{
+    background-color: white;
+    height: calc(100vh - 70px);
+}
+.footer{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+    flex:1;
+}
+.footer .item{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .footer .item{
+        width: 100%;
+    }
+    
+}
