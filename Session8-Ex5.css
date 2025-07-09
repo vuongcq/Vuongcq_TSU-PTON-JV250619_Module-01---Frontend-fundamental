@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    color: black;
+    height: 70px;
+    border-bottom: 1px solid rgb(242, 240, 240);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header .logo{
+    padding-top: 15px;
+    padding-left: 30px;
+
+}
+.header .other{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-right: 40px;
+}
+.other .item{
+    padding-top: 15px;
+}
+.other .co{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.other .thongbao{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    border-right: 1px solid rgb(232, 231, 231);
+}
+.other .anh{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+
+}
+.content{
+    background-color: rgb(250, 250, 250);
+    height: 1200px;
+}
+.content .tab{
+    margin: 20px 50px;
+}
+.content .main{
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main .left{
+    height: calc(50% - 100px)%;
+}
+.left .card{
+    display: flex;
+    flex-direction: row;
+}
+.left .anh1{
+    width: 600px;
+    height: 180px;
+}
+.left  .anh2{
+    width: 400px;
+    height: 200px;
+
+}
+.left .anh3{
+    width: 400px;
+    height: 200px;
+}
+.main .right{
+    height: calc(50% - 100px)%;
+}
+.content .quangcao{
+    margin: 20px 50px;
+}
+.right{
+    padding-left: 30px;
+    padding-right: 70px;
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 20px;
+}
+.right .check{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right .anh4{
+    border-radius: 20px;
+}
+button {
+    height: 40px;
+    width: 150px;
+    border: 1px solid white;
+    background-color: rgb(49,107,255);
+    border-radius: 40px;
+    color: white;
+}
+.right .detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right .detail .total{
+    background-color: rgb(216, 216, 216);
+}
+.quangcao .anh5{
+    height: 200px;
+    width: calc(100vw - 230px);
+}
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 90px;
+    height: 70px;
+    color: gray;
+}
+.footer .cot{
+    width: calc(20% - 90px);
+}
+.footer .cot1{
+    width: 30%;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: gray
+}
+a:visited {
+    color: gray
+}
+ul {
+    list-style-type: none;
+}
