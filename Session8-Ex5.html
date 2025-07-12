@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./Session8-Ex5.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="container">
@@ -26,27 +33,35 @@
               alt=""
             />
           </div>
-          <div class="item">Delowar</div>
+          <div class="item">
+            <select class="user" name="acc" id="">
+              <option value="">Delowar</option>
+              <option value="">Ad</option>
+            </select>
+          </div>
         </div>
       </div>
       <!-- Nội dung -->
-      <div class="content">
-        <div class="tab">Home> Hotel list > Hotel details >Confirm and pay</div>
-        <div class="main">
+      <div class="main">
+        <div class="tab">
+          Home > Hotel list > Hotel details >
+          <span class="text">Confirm and pay</span>
+        </div>
+        <div class="content">
           <div class="left">
             <h2>Confirm your Book</h2>
             <br />
             <h3>Your tour</h3>
             <br />
-            <div>
-              <label for="">Date</label>
-              <br />
-              <input type="date" />
+            <div class="date">
+              <p>Date</p>
+              <p class="text">June 27 - 30, 2020</p>
+              <i class="fa-solid fa-pen"></i>
             </div>
-            <div>
-              <label for="">Traveller</label>
-              <br />
-              <input type="text" />
+            <div class="traveller">
+              <p>Traveller</p>
+              <p class="text">1 Passenger</p>
+              <i class="fa-solid fa-pen"></i>
             </div>
             <br />
             <div>
@@ -55,87 +70,122 @@
             <img class="anh2" src="./card 1.png" alt="" />
             <img class="anh3" src="./card 2.png" alt="" />
             <br />
+            <br /><br />
             <label for="">Card Number</label>
             <br />
-            <input type="text" />
+            <input
+              class="cardnumber"
+              type="text"
+              placeholder="    5884 6241 4444 3333"
+            />
             <div class="card">
-              <div class="day">
+              <div>
                 <label for="">Expiry Date</label>
                 <br />
-                <input type="month" />
+                <input class="expirydate" type="text" placeholder="  MM/YY" />
               </div>
-              <div class="cvc">
+              <div>
                 <label for="">CVC/CVV</label>
                 <br />
-                <input type="password" />
+                <input class="cvc" type="password" placeholder="  ****" />
               </div>
             </div>
-            <div><input type="checkbox" /> Save Card</div>
-            <br>
-            <button>Confirm and reserve</button>
+            <div><input type="checkbox" checked /> Save Card</div>
+            <br />
+            <button class="button">Confirm and reserve</button>
           </div>
           <div class="right">
             <h5>Switzerland Hotels and Places to Stay</h5>
-            <br>
-            <p>⭐ 4.8 (122 reveiws)</p>
-            <br>
-            <div><img class="anh4" src="./daniel-corneschi-N6HTCyN50p0-unsplash 1.png" alt=""></div>
-            <br>
-            <p>1bedroom + 1 private room</p>
-            <br>
+            <br />
+            <p>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i> 4.8
+              <span class="text">(122 reveiws)</span>
+            </p>
+            <br />
+            <div>
+              <img
+                class="anh4"
+                src="./daniel-corneschi-N6HTCyN50p0-unsplash 1.png"
+                alt=""
+              />
+            </div>
+            <br />
+            <p class="text">1 bedroom + 1 private room</p>
+            <br />
             <div class="check">
-                <div><p>Check in</p>
-                    <p>June 27,2020</p>
-                </div>
-                <div>
-                    <p>Check out</p>
-                    <p>June 30,2020</p>
-                </div>
+              <div class="text">
+                <p>Check in</p>
+                <p>June 27,2020</p>
+              </div>
+              <div id="checkout" class="text">
+                <p>Check out</p>
+                <p>June 30,2020</p>
+              </div>
             </div>
-            <br>
-            <p>Guest</p>
-            <p>2 guest</p>
-            <br>
+            <br />
+            <p class="text">Guest</p>
+            <p class="text">2 guest</p>
+            <br />
             <h4>Booked details</h4>
-            <br>
+            <br />
             <div class="detail">
-                <div>
-                    <p>$119 + 5nights</p>
-                    <p>Ocupancy text and fee</p>
-                    <p>Service free</p>
-                    <p class="total">Total</p>
-                </div>
-                <div>
-                    <p>$833</p>
-                    <p>-$125</p>
-                    <p>$103</p>
-                    <p class="total">$833</p>
-                </div>
+              <p class="text">$119 + 5nights</p>
+              <p>$833</p>
             </div>
-            <br>
-            <p>Report this property</p>
+            <div class="detail">
+              <p class="text">Ocupancy text and fee</p>
+              <p>-$125</p>
+            </div>
+            <div class="detail">
+              <p class="text">Service free</p>
+              <p>$103</p>
+            </div>
+            <div class="total">
+              <p>Total</p>
+              <p>$833</p>
+            </div>
+            <br />
+            <p class="text1">Report this property</p>
           </div>
           <!-- Quảng cáo -->
         </div>
         <div class="quangcao">
-            <img class="anh5" src="./bg.png" alt="">
-          <div class="quangcao1">
-            <p>Get our pro offers</p>
-            <p>Tìm Kiếm</p>
+          <div>
+            <img class="anh5" src="./bg.png" alt="" />
           </div>
+          <div class="text">
+            <div class="title">Get our pro offer</div>
+            <div class="vanban">
+              Creat a visual identity for your company, and an <br />
+              overall brand
+            </div>
+          </div>
+          <div class="search">
+            <input
+              class="input"
+              type="text"
+              placeholder="     Type your email here"
+            />
+          </div>
+          <div class="button"><button>Subscribe</button></div>
         </div>
       </div>
       <!--footer  -->
       <div class="footer">
         <div class="cot1">
-          <h4>TripGuide</h4>
+          <div class="logo">
+            <img src="./logo.png" alt="" />
+          </div>
           <p>
             This is the team that specializes in <br />
             makinng sure in the find it a <br />
             your interior looks cool
           </p>
           <br />
-          <p>logo</p>
+          <div class="icon">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-regular fa-moon"></i>
+          </div>
         </div>
         <div class="cot">
           <h4>Services</h4>
@@ -165,11 +215,10 @@
             <li><a href="">Blog</a></li>
             <li><a href="">Information</a></li>
             <li><a href="">Travel Guide</a></li>
-            <br>
+            <br />
           </ul>
         </div>
       </div>
     </div>
-    
   </body>
 </html>
