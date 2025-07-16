@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 25px;
+}
+.container .child{
+    background-color: red;
+    width: calc(25% - 20px);
+    min-height: 150px;
+    
+}
+@media screen and (max-width:1024px) {
+    .container .child{
+        width: calc(50% - 20px);
+    }
+}
+@media screen and (max-width: 768px) {
+    .container .child{
+        width: calc(100% - 20px);
+    }
+}
