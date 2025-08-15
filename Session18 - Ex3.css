@@ -1,0 +1,13 @@
+
+#todoTable tr:hover .actions-btn {
+    display: inline-block; /* hiện khi hover */
+}
+#todoTable td {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through; /* Gạch ngang khi hoàn thành */
+    color: gray;
+}
